@@ -1,0 +1,290 @@
+1)<html lang="en">
+  <head>
+        <title> Document </title>
+  </head>
+  <body>
+        guvi
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+        Guvi Geek Network
+      </div>
+  </body>
+</html>
+
+o/p:
+guvi
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Guvi Geek Network
+----------------------------------------------------------------------------------------------------
+
+2)<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+-------------------------------------------------------------------------------------------------------
+
+3)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            margin: auto;
+            padding:10px;
+            background-color: white;
+            height:480px;
+            width:500px;
+        }
+    </style>
+       
+</head>
+<body bgcolor="skyblue">
+    <div id="container"> 
+    <form action="" style="text-align: center;">    
+    <h2 style="text-align: center;">CONTACT US</h2>
+    <input style="height: 30px; width: 400px;" type="text" placeholder="Name"><br><br>
+    <input style="height: 30px; width: 400px;" type="text" placeholder="Email"><br><br>
+    <textarea  cols="53px" rows="10px" placeholder="Message"></textarea><br><br>
+    <input style="background-color: blue; color:white;" type="submit" value="Send">
+    </form>
+    </div>
+</body>
+</html>
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+4)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>Programming Language</li>
+        <ul>
+            <li>JavaScript</li>
+            <ol type = "a">
+                <li>Angular
+                <li>React</li>
+                <li>Vue.js</li>
+            </ol>
+            <li>Python</li>
+            <ol type = "a">
+                <li>Django Framework</li>
+                <li>Flash Framework</li>
+            </ol>
+            <li>Java</li>
+            <ol type = "a">
+                <li>Spring</li>
+                <li>Maven</li>
+                <li>Hibernate</li>
+            </ol>
+        </ul>
+        <li>Database</li>
+        <ul>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>Cansandra</li>
+        </ul>
+
+    </ul>
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+5)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://google.com" target="_blank" class="button">Go to Google</a>
+</body>
+</html>
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+6)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="Yellow">
+        <form action=" " method="GET">
+            <p>Employee Type:</p>
+
+            <div>
+            <input type="radio" id="s" name="drone" value="s"
+                    checked>
+            <label for="sal">Salaried</label>
+            </div>
+
+            <div>
+            <input type="radio" id="O" name="drone" value="O">
+            <label for="own">Own Business</label>
+            </div>
+
+        </form>
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+7)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            margin: auto;
+            padding:10px;
+            background-color: white;
+            height:480px;
+            width:580px;
+            border-style: solid;
+            border-color: black;
+        }
+        .input{
+            border:none;
+            border-bottom:1px solid #ccc;
+        }
+        
+    </style>
+</head>
+<body>
+    <form class="container"><b>   
+        <h2 style="background-color:red; text-align:center; color: white;">Yes! I want to subscribe to Mag-O-Zine</Details></h2>
+        
+        <p><input style="height: 20px; width: 180px;" class="input" type="text" >
+        <label> First Name</label>
+        <input style="height: 20px; width: 180px;" class="input"  type="text" >
+        <label> Second Name</label></p><br>
+
+        <p><input style="height: 20px; width: 500px;" class="input" type="text" >
+        <label> Address</label></p><br>
+        <p><input style="height: 20px; width: 150px;" class="input" type="text" >
+        <label> City</label>
+        <input style="height: 20px; width: 150px;" class="input" type="text" >
+        <label> State</label>
+        <input style="height: 20px; width: 150px;" class="input" type="text" >
+        <label> Zip</label></p><br>
+        
+        <p> Subscribe For:
+        <input type="checkbox" id="box" value="1">
+        <label> 1 year ($19.95)</label>
+        <input type="checkbox" id="box"  value="2">
+        <label> 2 year ($35.00)</label></p><br>
+        <p>Send me more information about:</p>
+        <p><input type="checkbox" id="box" value="3">
+        <label> Computer-Zine</label><br>
+        <input type="checkbox" id="box" value="4">
+        <label> Fishing-Zine</label><br>
+        <input type="checkbox" id="box" value="5">
+        <label> Cat-O-Zine</label></p></b>
+    </form>
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+8)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 style="text-align:center">Health Chart</h2>
+    <table align="center" border="2px solid black"; <b>
+        <tr>
+            <th rowspan="2">State of Health</th>
+            <th colspan="2">Fasting Value</th>
+            <th>After Eating</th>
+        </tr>
+        <tr>
+           <td>Minimum</td>
+           <td>Maximum</td>
+           <td>2 hours after eating</td>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+9)<input type="text" id="fname" name="fname" value="text">
+
+<select id="cars" name="cars" value=""> <option value="text"></option></select>
+
+<textarea name="message" rows="10" cols="30" value="textarea">The cat was playing in the garden.</textarea>
+
+<button type="button" value="button" onclick="alert('Hello World!')">Click Me!</button>
+
+<fieldset> <legend>Personalia:</legend></fieldset>
+
+<datalist id="browsers"><option value="text"></datalist>
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+10)<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><mark>HTML & CSS is awesome</mark></p>
+</body>
+</html>
+
+--------------------------------------------------------------------------------------------------------------------------------------
